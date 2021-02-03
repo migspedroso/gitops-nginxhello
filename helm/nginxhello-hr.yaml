@@ -7,7 +7,7 @@ metadata:
     fluxcd.io/ignore: "false"
 spec:
   chart:
-    git: ssh://git@github.com/<git user>/gitops-nginxhello.git
+    git: ssh://git@github.com/migspedroso/gitops-nginxhello.git
     path: helm/chart
     ref: master
   rollback:
