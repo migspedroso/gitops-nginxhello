@@ -4,7 +4,7 @@ metadata:
   name: nginxhello-hr
   namespace: default
   annotations:
-    fluxcd.io/ignore: "false"
+    fluxcd.io/ignore: "true"
 spec:
   chart:
     git: ssh://git@github.com/migspedroso/gitops-nginxhello.git
